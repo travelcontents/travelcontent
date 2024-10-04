@@ -1,0 +1,206 @@
+.bjk-title {
+  line-height: 1.5em;
+}
+.bjk-title > span:first-child {
+  color: #02aae8;
+}
+
+.bjk-purchase {
+  background-color: #eee;
+  font-size: 0.7em;
+  border-radius: 10px;
+  padding: 15px 30px;
+}
+
+.tiles article {
+  font-size: 1.3em;
+}
+
+/* #footer .inner section h2 {
+  font-size: 1.5em;
+}
+
+#footer .inner section .company-info {
+}
+
+#footer .inner section #footer .inner section; */
+
+#footer section h2 {
+  font-size: 1.4em;
+  font-weight: 900;
+  opacity: 0.7;
+}
+
+.company-info_contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+/* 필터 적용 */
+.filter {
+  margin: 20px 0;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  margin-right: 10px;
+  padding: 0 20px;
+  cursor: pointer;
+  background-color: #eee;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+}
+
+.filter-buttons button.active {
+  background-color: #02aae8;
+  color: white !important;
+}
+
+.item {
+  display: none;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.item.show {
+  display: block;
+}
+
+/* 폴딩 구현 */
+
+details {
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+summary {
+  font-size: 1.3em;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #eee;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+details[open] summary::after {
+  content: "▲";
+  float: right;
+}
+
+summary::after {
+  content: "▼";
+  float: right;
+}
+
+details p {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .filter-buttons button {
+    margin: 3px;
+    padding: 0 10px;
+    max-width: max-content;
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 360px) {
+  .filter-buttons button {
+    font-size: 0.7em;
+  }
+}
+
+/* 상세 컨텐츠 */
+.bjk_container h2 {
+  font-size: 1.6em;
+  font-weight: 900;
+  padding: 0 20px;
+  margin-bottom: 15px;
+}
+
+.bjk_container ul {
+  margin: 10px 0;
+  list-style: none;
+  font-weight: 300;
+}
+
+.bjk_container li {
+  margin: 10px 0;
+}
+
+.bjk-boxs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.bjk-boxs .box {
+  width: 45%;
+  border-style: none;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.bjk-boxs .box img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* 쿠폰 레이아웃*/
+.coupon-container {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 2rem 2rem;
+  margin-bottom: 2rem;
+  background-color: #f4f4f4;
+}
+.coupon-container_coupon {
+  width: 100%;
+}
+
+.bjk-download {
+  width: 100%;
+}
+.bjk-download_button {
+  width: 100%;
+  margin-right: 10px;
+  padding: 0 20px;
+  cursor: pointer;
+  background-color: #eee;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  border-radius: 10px;
+}
+
+.bjk-download_button.active {
+  background-color: #02aae8;
+  color: white !important;
+}
+
+.bjk-item_title {
+  background-color: #eee;
+  color: black;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+}
+
+.logo_travelcontents {
+  width: 50%;
+}
+.bjk-sns {
+  padding: 10%;
+}
+
+.bjk-sns_img {
+  width: 100%;
+}
